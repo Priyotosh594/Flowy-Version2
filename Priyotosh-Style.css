@@ -197,3 +197,10 @@ background-color: rgb(246, 205, 184);
 background-color: rgb(245, 198, 95);
 margin-right: 15%;
 }
+
+#testing{
+   text-transform: uppercase;
+   font-size: 50px;
+   color: rgb(0, 167, 167);
+   text-align: center;
+}
