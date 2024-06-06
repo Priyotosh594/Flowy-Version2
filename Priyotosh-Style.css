@@ -1,0 +1,199 @@
+.main-container{
+    background-color: rgb(259, 248, 223); 
+    padding-top: 40px;
+
+    #logo{
+       height: 40px;
+       width: 40px;
+   }
+   #logo-text{
+       font-size: 30px;
+       margin: 0px;
+       padding-top: 3px;
+   }
+   .side-items.right{
+       display: flex;
+       gap: 5px;
+   }
+   .top-flex{
+       display: flex;
+       justify-content: space-between;
+       
+      
+       .first-flexline{
+           font-size: 20px;
+           margin-top: 0px;
+           margin-bottom: 0px; 
+       }
+       .first-flexline.last{
+           /* its vey important to use right kind of selector */
+      color: white;
+   }
+       #contact-us{
+   margin-top: 0px;
+   margin-bottom: 0px;
+   padding: 10px 10px 0px 10px; 
+   height: 35px;
+   border: solid;
+   border-radius: 10px;
+   background-color: rgb(63, 63, 63);  
+}         
+   }
+}
+.centre-items{
+   display: flex;
+   gap: 35px;
+}
+
+.side-items.left{
+   margin-right: 70px;
+
+}
+.side-items.right{
+   margin-left: 70px;
+}
+
+#home, #Project, #Service, #Contact{
+   text-align: center;
+   height: 30px;
+   padding: 7px 10px 0px 10px;
+   border-radius: 25px;
+   border: solid 1px;
+}
+/* second line starts */
+.heading{
+   display: flex;
+   gap: 300px;
+}
+#pinkgirl{
+   margin-top: 90px;
+   height: 400px;
+   width: 440px;
+   border-radius: 15px;
+}
+h1{
+   font-size: 80px;
+   margin: 55px 0px 0px 70px;
+
+}
+
+#para{
+   font-size: 25px;
+   margin-left: 80px;
+}
+
+.logo2{
+   height: 70px;
+   width: 80px;
+}
+
+#logo3{
+   width: 50px;
+   height: 55px;
+}
+#text3{
+   margin: 10px 0px 0px 0px;
+   padding:  0px 0px 0px 0px;
+}
+#get-started{
+display: flex;
+background-color: rgb(240, 202, 91);
+font-size: 30px;
+padding: 10px;
+margin: 0px 0px 0px 90px;
+border-radius: 15px;
+}
+.third-level{
+display: flex;
+}
+
+#last-line{
+display: flex;
+gap: 50px;
+background-color: black;
+color: white;
+font-size: 25px;
+margin-top: 100px;
+justify-content: space-between;
+}
+.account-logo{
+height: 70px;
+width: 70px;
+}
+
+.account{
+margin-top: 20px;
+}
+#paypal{
+display: flex;
+flex-direction: row;
+margin-left: 70px;
+}
+
+#gmail{
+display: flex;
+flex-direction: row;
+}
+
+#facebook{
+display: flex;
+}
+
+#shopify{
+display: flex;
+margin-right: 70px;
+}
+
+    /* Second page */
+
+.main{
+display:flex;
+flex-direction: column;
+align-items: center;
+}
+#main-heading{
+font-size: 3rem;
+margin-top: 150px;
+}
+#main-paragraph{
+font-size: 1.5rem;
+text-align: center;
+margin: 0px 0px 100px 0px; 
+}
+.sub-paragraph{
+font-size: 1.5rem;
+text-align: center;
+padding: 10px;
+}
+
+.main-box{
+display: flex;
+justify-content: space-between; 
+}
+.box{
+width: 20%;
+height: 300px; 
+border-radius: 10px;
+}
+.box-logo{
+height:3.5rem;
+width: 3.5rem;
+border-radius: 50%;
+padding: 20px 20px 20px 20px;
+}
+.sub-heading{
+font-size: 2rem;
+text-align: center; 
+margin-top: 0px;
+}
+.box.webdesign{
+background-color: rgb(165, 208, 206);
+margin-left: 15%; 
+}
+.box.development{
+background-color: rgb(246, 205, 184);
+}
+.box.ecommerce{
+background-color: rgb(245, 198, 95);
+margin-right: 15%;
+}
