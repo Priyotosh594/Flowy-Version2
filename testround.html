@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSite</title>
+</head>
+
+<style>
+    .main-container{
+         background-color: rgb(259, 248, 223); 
+         padding-top: 40px;
+
+         #logo{
+            height: 40px;
+            width: 40px;
+        }
+        #logo-text{
+            font-size: 30px;
+            margin: 0px;
+            padding-top: 3px;
+        }
+        .side-items.right{
+            display: flex;
+            gap: 5px;
+        }
+        .top-flex{
+            display: flex;
+            justify-content: space-between;
+            
+           
+            .first-flexline{
+                font-size: 20px;
+                margin-top: 0px;
+                margin-bottom: 0px; 
+            }
+            .first-flexline.last{
+                /* its vey important to use right kind of selector */
+           color: white;
+        }
+            #contact-us{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 10px 10px 0px 10px; 
+        height: 35px;
+        border: solid;
+        border-radius: 10px;
+        background-color: rgb(63, 63, 63);  
+    }         
+        }
+    }
+    .centre-items{
+        display: flex;
+        gap: 35px;
+    }
+
+    .side-items.left{
+        margin-right: 70px;
+
+    }
+    .side-items.right{
+        margin-left: 70px;
+    }
+
+    #home, #Project, #Service, #Contact{
+        text-align: center;
+        height: 30px;
+        padding: 7px 10px 0px 10px;
+        border-radius: 25px;
+        border: solid 1px;
+    }
+    /* second line starts */
+    .heading{
+        display: flex;
+        gap: 300px;
+    }
+    #pinkgirl{
+        margin-top: 90px;
+        height: 400px;
+        width: 440px;
+        border-radius: 15px;
+    }
+    h1{
+        font-size: 80px;
+        margin: 55px 0px 0px 70px;
+
+    }
+
+    #para{
+        font-size: 25px;
+        margin-left: 80px;
+    }
+
+    .logo2{
+        height: 70px;
+        width: 80px;
+    }
+
+    #logo3{
+        width: 50px;
+        height: 55px;
+    }
+    #text3{
+        margin: 0px 0px 0px 0px;
+        padding:  0px 0px 0px 0px;
+    }
+#get-started{
+    background-color: rgb(240, 202, 91);
+    font-size: 30px;
+    padding: 10px;
+    margin: 0px 0px 0px 90px;
+}
+.third-level{
+    display: flex;
+}
+
+#last-line{
+    display: flex;
+    gap: 50px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    margin-top: 100px;
+    justify-content: center;
+}
+.account-logo{
+    height: 70px;
+    width: 70px;
+}
+
+</style>
+<body>
+<div class="main-container">
+
+    <div class="top-flex">
+
+         <div class="side-items right">
+             <img id="logo" src="Flowy-logo.jpeg" alt="company-logo">
+             <p id="logo-text" >Flowy</p>
+         </div>
+        
+         <div class="centre-items">
+             <div id="home" ><p class="first-flexline" >Home</p></div>
+             <div id="Project"><p class="first-flexline" > Project</p></div>
+             <div id="Service"><p class="first-flexline" >Service</p></div>
+             <div id="Contact"><p class="first-flexline" >Contact</p></div>
+         </div>
+        
+         <div class="side-items left">
+             <div id="contact-us"><p class="first-flexline last" > Contact Us</p></div>
+         </div>
+                 
+    </div>
+    <div class="heading"> 
+         <h1>Grow Your <br> Business With <br>Us <img class="logo2" src="logo2.001.jpeg"></h1>
+         <img id="pinkgirl" src="pink1.jpg" alt="">
+    </div>
+        
+     
+     <p id="para">An agency is a businessm, firm or <br> organization that provide service.
+     </p>
+  
+     <div class="third-level">
+     <div id="get-started"><p id="text3">Get Started </p></div>
+     <img id="logo3" src="logo3.jpeg">
+    </div>
+
+    <div id="last-line">
+        <img class="account-logo" src="paypal.JPG" alt=""><p class="account">Paypal</p>
+        <img class="account-logo" src="gmail.JPG" alt=""><p class="account">Gmail</p>
+        <img class="account-logo" src="facebook.JPG" alt=""> <p class="account">Facebook</p>
+        <img class="account-logo" src="shopify.JPG" alt=""> <p class="account">Shopify</p>
+    </div>
+
+</div>
+
+
+</body>
+</html>
