@@ -40,20 +40,31 @@
 }         
    }
 }
+
 .centre-items{
    display: flex;
    gap: 35px;
 }
+.centre-items :hover{
+   background-color: rgb(230, 225, 216); 
+   transition: background-color 0.3s, border 0.3s;
+   border-bottom:  solid 1px;
+}
 
 .side-items.left{
    margin-right: 70px;
-
+}
+.side-items.left :hover{
+   transform: scale(1.1);
+}
+#contact-us :hover{
+   transform: none;
 }
 .side-items.right{
    margin-left: 70px;
 }
 
-#home, #Project, #Service, #Contact{
+#home, #Project, #Service, #help{
    text-align: center;
    height: 30px;
    padding: 7px 10px 0px 10px;
@@ -70,7 +81,9 @@
    height: 400px;
    width: 440px;
    border-radius: 15px;
+   box-shadow: 2px 2px 8px rgb(255, 170, 194);
 }
+
 h1{
    font-size: 80px;
    margin: 55px 0px 0px 70px;
@@ -105,6 +118,12 @@ border-radius: 15px;
 }
 .third-level{
 display: flex;
+}
+.third-level :hover{
+   transform:scale(1.1);
+}
+#get-started :hover{
+    transform: none;
 }
 
 #last-line{
@@ -174,7 +193,19 @@ justify-content: space-between;
 width: 20%;
 height: 300px; 
 border-radius: 10px;
+box-shadow: 1px 2px 7px black;
 }
+.main-box :hover{
+   transform:rotate(5deg);
+   .sub-heading{
+       transform: none;
+   }
+   .sub-paragraph{
+       transform: rotate(0deg);
+   }
+   .box-logo{transform: rotate(0deg);}
+}
+
 .box-logo{
 height:3.5rem;
 width: 3.5rem;
@@ -198,9 +229,6 @@ background-color: rgb(245, 198, 95);
 margin-right: 15%;
 }
 
-#testing{
-   text-transform: uppercase;
-   font-size: 50px;
-   color: rgb(0, 167, 167);
-   text-align: center;
+#extra-space{
+   height: 100px;
 }
